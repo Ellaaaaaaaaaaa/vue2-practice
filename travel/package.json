@@ -1,7 +1,7 @@
 {
   "name": "travel",
   "version": "1.0.0",
-  "description": "vue2",
+  "description": "A Vue.js project",
   "author": "Ella",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "fastclick": "^1.0.6",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
