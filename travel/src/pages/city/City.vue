@@ -13,13 +13,14 @@
       ></city-alphabet>
     </div>
   </template>
+
 <script>
 import axios from 'axios'
-import CityHeader from './components/Header.vue'
-import CitySearch from './components/Search.vue'
+import CityHeader from './components/Header'
+import CitySearch from './components/Search'
 import CityList from './components/List'
 import CityAlphabet from './components/Alphabet'
-export default{
+export default {
   name: 'City',
   components: {
     CityHeader,
@@ -54,8 +55,9 @@ export default{
   mounted () {
     this.getCityInfo()
   }
-
 }
 </script>
-<style lang="stylus" scoped>
-</style>
+
+  <style lang="stylus" scoped>
+
+  </style>
